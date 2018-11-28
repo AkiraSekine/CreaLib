@@ -4,27 +4,39 @@
     <Filter Include="src">
       <UniqueIdentifier>{6c3686ad-d50f-40a2-8b85-b8ee4f33ecb3}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\Vector">
+      <UniqueIdentifier>{db266fbe-196f-4ce3-ba93-17d7d2840fee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\Transform">
+      <UniqueIdentifier>{9e4bd625-acb1-4807-8aba-0225aba85800}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\src\Inc\Math\Math.h">
       <Filter>src</Filter>
     </ClInclude>
     <ClInclude Include="..\src\Inc\Math\Vector2.h">
-      <Filter>src</Filter>
+      <Filter>src\Vector</Filter>
     </ClInclude>
     <ClInclude Include="..\src\Inc\Math\Vector3.h">
-      <Filter>src</Filter>
+      <Filter>src\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\Inc\Math\Transform2D.h">
+      <Filter>src\Transform</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\Src\Math\Vector2.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\Src\Math\Math.cpp">
       <Filter>src</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Src\Math\Vector2.cpp">
+      <Filter>src\Vector</Filter>
+    </ClCompile>
     <ClCompile Include="..\src\Src\Math\Vector3.cpp">
-      <Filter>src</Filter>
+      <Filter>src\Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Src\Math\Transform2D.cpp">
+      <Filter>src\Transform</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
