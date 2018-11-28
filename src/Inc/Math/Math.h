@@ -1,12 +1,12 @@
 #pragma once
 
-#include "Vector2.h"
-#include "Vector3.h"
-
 namespace CreaLib
 {
 namespace Math
 {
+    class Vector2;
+    class Vector3;
+
     const Vector2 operator+(const float& _value, const Vector2& _vec);
     const Vector2 operator-(const float& _value, const Vector2& _vec);
     const Vector2 operator*(const float& _value, const Vector2& _vec);

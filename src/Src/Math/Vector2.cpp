@@ -2,6 +2,9 @@
 
 #include <cmath>
 
+#include "Math/Vector2.h"
+#include "Math/Vector3.h"
+
 namespace CreaLib
 {
 namespace Math

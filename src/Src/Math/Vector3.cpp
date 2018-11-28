@@ -1,6 +1,9 @@
-#include "Math/Math.h"
+#include "Math/Vector3.h"
 
 #include <cmath>
+
+#include "Math/Math.h"
+#include "Math/Vector2.h"
 
 namespace CreaLib
 {
