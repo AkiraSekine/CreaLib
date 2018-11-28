@@ -105,5 +105,10 @@ namespace Math
 
         operator Vector3() const;
     };
+
+    const Vector2 operator+(const float& _value, const Vector2& _vec);
+    const Vector2 operator-(const float& _value, const Vector2& _vec);
+    const Vector2 operator*(const float& _value, const Vector2& _vec);
+    const Vector2 operator/(const float& _value, const Vector2& _vec);
 } // Math
 } // CreaLib
