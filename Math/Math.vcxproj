@@ -23,6 +23,7 @@
     <ClInclude Include="..\src\Inc\Math\Vector2.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="..\src\Src\Math\Math.cpp" />
     <ClCompile Include="..\src\Src\Math\Vector2.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
