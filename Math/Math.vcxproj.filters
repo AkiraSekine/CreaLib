@@ -12,12 +12,18 @@
     <ClInclude Include="..\src\Inc\Math\Vector2.h">
       <Filter>src</Filter>
     </ClInclude>
+    <ClInclude Include="..\src\Inc\Math\Vector3.h">
+      <Filter>src</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\Src\Math\Vector2.cpp">
       <Filter>src</Filter>
     </ClCompile>
     <ClCompile Include="..\src\Src\Math\Math.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Src\Math\Vector3.cpp">
       <Filter>src</Filter>
     </ClCompile>
   </ItemGroup>
