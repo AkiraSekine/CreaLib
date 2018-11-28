@@ -26,9 +26,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\src\Src\Math\Math.cpp">
-      <Filter>src</Filter>
-    </ClCompile>
     <ClCompile Include="..\src\Src\Math\Vector2.cpp">
       <Filter>src\Vector</Filter>
     </ClCompile>
@@ -38,5 +35,10 @@
     <ClCompile Include="..\src\Src\Math\Transform2D.cpp">
       <Filter>src\Transform</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\src\Inc\Math\Math.inl">
+      <Filter>src</Filter>
+    </None>
   </ItemGroup>
 </Project>
