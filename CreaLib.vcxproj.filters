@@ -6,7 +6,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="src\CreaLib.h">
+    <ClInclude Include=".\src\Inc\CreaLib.h">
       <Filter>src</Filter>
     </ClInclude>
   </ItemGroup>
